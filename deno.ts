@@ -4,7 +4,7 @@ on: push
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu
 
     permissions:
       id-token: write # This is required to allow the GitHub Action to authenticate with Deno Deploy.
