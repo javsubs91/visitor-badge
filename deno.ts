@@ -1,4 +1,4 @@
-- name: Deploy to Deno Deploy
+- name: js91
   uses: denoland/deployctl@v1
   with:
     project: my-project
